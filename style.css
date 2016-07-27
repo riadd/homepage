@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 40px;
+  padding: 0;
   font-family: helvetica, arial, sans-serif;
   background-size: cover;
   height: 100%;
@@ -8,7 +8,8 @@ body {
 }
 
 h1 {
-  font-family: pacifico;
+  font-family: Patua One;
+  /*font-family: pacifico;*/
 }
 
 h2, h3 {
@@ -19,7 +20,42 @@ div {
   padding: 10px;
 }
 
+#about, #projects, #jams, #interviews, #talks, #photos, #social {
+  padding: 10px;
+  width: 830px;
+  margin: 20px auto;
+  clear: both;
+}
+
+/* intro */
+
+#intro {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#intro video {
+  width: 100%;
+  min-width: 830px
+}
+
+#intro div {
+  position: absolute;
+  top: 60px;
+  z-index: 100;
+  width: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 5vw;
+}
+
 /* about */
+
+#about {
+  height: 300px;
+}
 
 #about p {
   font-size: 1.8em;
@@ -36,14 +72,28 @@ div {
   color: #555;
 }
 
+/* social */
+
+#social {
+  margin: -60px auto 0;
+}
+
+#social li {
+  display: inline;
+  margin: 20px;
+  list-style: none;
+  font-size: 3em;
+}
+
+#social a {
+  color: #333;
+  text-decoration: none;
+  border: none;
+
+}
+
 /* projects */
 
-#about, #projects, #jams, #interviews, #talks, #photos {
-  padding: 10px;
-  width: 830px;
-  margin: 20px auto;
-  clear: both;
-}
 
 .project {
   padding: 10px;
