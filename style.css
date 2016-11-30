@@ -20,7 +20,7 @@ div {
   padding: 10px;
 }
 
-#about, #projects, #jams, #interviews, #talks, #photos, #social {
+#about, #projects, #jams, #interviews, #talks, #photos, #social, #bio {
   padding: 10px;
   width: 830px;
   margin: 20px auto;
@@ -153,6 +153,13 @@ ul em {
 
 li {
   padding: 4px;
+}
+
+
+/* bio */
+
+#bio h2 {
+  clear: both;
 }
 
 /* footer */
