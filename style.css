@@ -20,10 +20,10 @@ div {
   padding: 10px;
 }
 
-#about, #projects, #jams, #interviews, #talks, #photos, #social, #bio {
+#about, #projects, #jams, #interviews, #talks, #photos, #bio {
   padding: 10px;
   width: 830px;
-  margin: 20px auto;
+  margin: 0 auto;
   clear: both;
 }
 
@@ -55,7 +55,7 @@ div {
 
 #about {
   height: 300px;
-  margin: 60px auto 20px;
+  margin: 60px auto 0px;
 }
 
 #about p {
@@ -75,23 +75,17 @@ div {
 
 /* social */
 
-#social {
-  margin: -60px auto 0;
-}
-
-#social li {
-  display: inline;
-  margin: 20px;
-  list-style: none;
-  font-size: 3em;
-}
-
 #social a {
   color: #333;
   text-decoration: none;
   border: none;
-
+  font-size: 1.5em;
 }
+
+p.loc {
+  font-size: 2.5em;
+}
+
 
 /* projects */
 
@@ -160,6 +154,16 @@ li {
 
 #bio h2 {
   clear: both;
+}
+
+table td {
+  padding: 8px;
+}
+
+table .title {
+  font-weight: bold;
+  font-style: normal;
+  color: #222; 
 }
 
 /* footer */
