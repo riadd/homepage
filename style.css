@@ -22,7 +22,7 @@ div {
 
 #about, #projects, #jams, #interviews, #talks, #photos, #bio {
   padding: 10px;
-  width: 830px;
+  max-width: 900px;
   margin: 0 auto;
   clear: both;
 }
